@@ -1,6 +1,6 @@
-name: gpsd_elschnet
-description: Run gpsd in a container to expose GPS data over TCP. Patch von github.com/leo-stan/ha-addon-gpsd Version 0.1.1 - unter anderem ttyUSB1 hinzugefügt. elsch 03.07.2026. 
-version: 0.1.6
+name: GPSD 
+description: 88 Run gpsd in a container to expose GPS data over TCP. Version 0.1.1 gecloned und lokal gespeichert. ttyUSB1 hinzugefügt. elsch 03.07.2026. 
+version: 0.1.8
 slug: gpsd
 url: https://github.com/elschnet/ha-addon-gpsd2
 arch:
