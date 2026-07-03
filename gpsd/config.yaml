@@ -1,6 +1,6 @@
 name: GPSD
-description: 25 Run gpsd in a container to expose GPS data over TCP.
-version: 0.1.25
+description: 26 Run gpsd in a container to expose GPS data over TCP.
+version: 0.1.26
 slug: gpsd
 url: https://github.com/elschnet/ha-addon-gpsd2
 arch:
@@ -11,7 +11,7 @@ arch:
 startup: services
 boot: auto
 init: false
-uart: true
+privileged: true
 host_network: false
 ports:
   "2947/tcp": 2947
