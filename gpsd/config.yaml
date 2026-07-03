@@ -1,6 +1,6 @@
 name: GPSD 
 description: Run gpsd in a container to expose GPS data over TCP. Version 0.1.1 gecloned und lokal gespeichert. ttyUSB1 hinzugefügt. elsch 03.07.2026. 
-version: 0.1.20
+version: 0.1.21
 slug: gpsd
 url: https://github.com/elschnet/ha-addon-gpsd2
 arch:
