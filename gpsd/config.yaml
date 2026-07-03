@@ -11,6 +11,10 @@ arch:
 startup: services
 boot: auto
 init: false
+usb: true
+privileged:
+  - SYS_RAWIO
+  - ALL
 host_network: false
 ports:
   2947/tcp: 2947
