@@ -1,6 +1,6 @@
 name: GPSD 
-description: 20 Run gpsd in a container to expose GPS data over TCP. Version 0.1.1 gecloned und lokal gespeichert. ttyUSB1 hinzugefügt. elsch 03.07.2026. 
-version: 0.2.0
+description: Run gpsd in a container to expose GPS data over TCP. Version 0.1.1 gecloned und lokal gespeichert. ttyUSB1 hinzugefügt. elsch 03.07.2026. 
+version: 0.1.20
 slug: gpsd
 url: https://github.com/elschnet/ha-addon-gpsd2
 arch:
@@ -8,18 +8,14 @@ arch:
   - armv7
   - armhf
   - amd64
-usb: true
-privileged:
-  - SYS_RAWIO
-  - ALL
 startup: services
 boot: auto
 init: false
 host_network: false
 ports:
-  "2947/tcp": 2947
+  2947/tcp: 2947
 ports_description:
-  "2947/tcp": "gpsd TCP port"
+  2947/tcp: "gpsd TCP port"
 devices:
   - /dev/ttyUSB0
   - /dev/ttyUSB1
